@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitsumhub — Developer Portal</title>
+  <meta name="description" content="Official developer portal for Fitsumhub mobile applications, including Habte — Personal Finance Tracker for Ethiopia.">
+  <meta name="theme-color" content="#080A0A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #080A0A;
+      color: #F5F7F6;
+      font-family: 'Inter', -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      line-height: 1.6;
+    }
+    .card {
+      background: #101414;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      max-width: 600px;
+      width: 100%;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(0, 200, 83, 0.1);
+      border: 1px solid rgba(0, 200, 83, 0.25);
+      color: #00C853;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+    h1 span { color: #00C853; }
+    p {
+      color: #9AA4A0;
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 24px;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .btn-primary {
+      background: #00C853;
+      color: #000;
+    }
+    .btn-primary:hover {
+      background: #00A844;
+      transform: translateY(-2px);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #F5F7F6;
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.09);
+      transform: translateY(-2px);
+    }
+    .footer {
+      font-size: 0.75rem;
+      color: rgba(154, 164, 160, 0.5);
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 18px;
+    }
+    .footer a {
+      color: #00C853;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Verified Developer Portal</div>
+    <h1>Fitsumhub <span>Developer</span></h1>
+    <p>Creator of Habte — ሀብቴ, the privacy-first personal finance tracker for Ethiopian banking and mobile money.</p>
+    
+    <div class="links">
+      <a href="https://fitsumhub.github.io/Habte-Personal-Finance-Tracker-/" class="btn btn-primary">
+        Visit Habte App Website
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.fitsumhub.habtetracker" class="btn btn-secondary" target="_blank" rel="noopener">
+        Get Habte on Google Play
+      </a>
+      <a href="/app-ads.txt" class="btn btn-secondary">
+        View app-ads.txt
+      </a>
+    </div>
+
+    <div class="footer">
+      Developer domain for Google AdMob & Google Play verification &middot;
+      <a href="https://github.com/fitsumhub">GitHub @fitsumhub</a>
+    </div>
+  </div>
+</body>
+</html>
